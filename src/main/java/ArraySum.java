@@ -6,8 +6,13 @@ public class ArraySum {
      * @param arr an array of ints
      * @return the sum of all values in arr.
      */
+    
     public int sum(int[] arr){
-
-        return 0;
+        int t = 0;
+        for(int i: arr){
+            
+            t += i;
+        }
+            return t;
     }
 }
